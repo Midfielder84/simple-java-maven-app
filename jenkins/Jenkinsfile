@@ -29,10 +29,5 @@ pipeline {
                 echo 'New Stage'
             }
         }
-        stage('Finish Build') {
-            steps {
-                echo 'Complited'
-            }
-        }
     }
 }
